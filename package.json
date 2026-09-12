@@ -1,0 +1,7 @@
+{
+  "name": "allstar-flooring",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy"
+  }
+}
