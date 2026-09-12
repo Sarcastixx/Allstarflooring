@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>All Star Flooring</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="logo-mark" href="index.html" aria-label="All Star home">LS</a>
+      <ul class="nav-links" data-nav>
+        <li><a class="is-active" href="index.html">Home</a></li>
+        <li><a href="flooring.html">Flooring</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-end">
+        <button class="icon-btn" data-open-quote>Get a quote</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-frame">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=80" alt="Light oak floors" />
+          <aside class="quote-card">
+            <h1>ALL STAR</h1>
+            <button class="quote-btn" data-open-quote>Get a quote →</button>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="modal" data-modal hidden>
+    <div class="modal-card">
+      <header><h2>Get a quote</h2><button class="close" data-close-quote>×</button></header>
+      <form class="form" data-quote-form>
+        <label>Name <input name="name" required /></label>
+        <label>Email <input type="email" name="email" required /></label>
+        <button class="primary" type="submit">Send request</button>
+        <p class="note" data-form-note></p>
+      </form>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
